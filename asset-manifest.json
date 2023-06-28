@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/a-gnostics/static/css/main.c631a68e.css",
+    "main.js": "/a-gnostics/static/js/main.f84a816c.js",
+    "static/js/787.d546e16d.chunk.js": "/a-gnostics/static/js/787.d546e16d.chunk.js",
+    "static/media/travel-01.jpg": "/a-gnostics/static/media/travel-01.ae8754a3360000007acd.jpg",
+    "static/media/travel-02.jpg": "/a-gnostics/static/media/travel-02.2b874d022a5a89a50fd9.jpg",
+    "static/media/banner.jpg": "/a-gnostics/static/media/banner.48153ff8aa0cd5d92959.jpg",
+    "static/media/ai_background.png": "/a-gnostics/static/media/ai_background.a2129cd406f4b48e58ba.png",
+    "static/media/bg_engine.jpg": "/a-gnostics/static/media/bg_engine.61f21082ffa006a2d838.jpg",
+    "static/media/bg_kpi.jpg": "/a-gnostics/static/media/bg_kpi.04303aaba608fce4febb.jpg",
+    "static/media/icomoon.svg?5xw1yv": "/a-gnostics/static/media/icomoon.dc36023743e2ab8014fb.svg",
+    "static/media/phone_di_agnostics.png": "/a-gnostics/static/media/phone_di_agnostics.0def83281c1209e49ac3.png",
+    "static/media/icomoon.eot?5xw1yv": "/a-gnostics/static/media/icomoon.4656ed2cac9421563734.eot",
+    "static/media/icomoon.woff?5xw1yv": "/a-gnostics/static/media/icomoon.a5334e6ff6e9712ff1d0.woff",
+    "static/media/icomoon.ttf?5xw1yv": "/a-gnostics/static/media/icomoon.e5a8f5d985ad51ac2dda.ttf",
+    "index.html": "/a-gnostics/index.html",
+    "main.c631a68e.css.map": "/a-gnostics/static/css/main.c631a68e.css.map",
+    "main.f84a816c.js.map": "/a-gnostics/static/js/main.f84a816c.js.map",
+    "787.d546e16d.chunk.js.map": "/a-gnostics/static/js/787.d546e16d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c631a68e.css",
+    "static/js/main.f84a816c.js"
+  ]
+}
