@@ -14,8 +14,13 @@ const Services = ({ imageSrc, title, subtitle, flipped, id }) => {
       if (!flipped) {
         return (
           <>
-            {/* <div className="slider__content"> */}
-             <div className="services__content">
+
+            <div className="relative">
+              <div className="services__background"></div>
+              <img src={imageSrc} alt="Services" className="slider__image services__image"/>
+            </div>
+
+             <div className="services__absolute services__content">
               <p>Did you know that:</p>
               <br/>
               <p>
@@ -44,7 +49,6 @@ const Services = ({ imageSrc, title, subtitle, flipped, id }) => {
                 </li>
               </ul>
             </div>
-            <img src={imageSrc} alt="Services" className="slider__image"/>
           </>
         );
       } else {
@@ -61,7 +65,7 @@ const Services = ({ imageSrc, title, subtitle, flipped, id }) => {
     };
 
     return (
-        <div id={id} className={inView ? "slider slider--zoom" : "slider"} ref={ref}>
+        <div id={id} className={inView ? "services__flex slider slider--zoom" : "services__flex slider"} ref={ref}>
             {renderContent()}
         </div>
     );

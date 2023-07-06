@@ -23,13 +23,7 @@ const ProductDiagnostics = ({ imageSrc, title, subtitle, flipped, id }) => {
                 <div className="product__container">
                     <div className="product__flex__container">
                         <img src={imageSrc} alt="mobile app" className="slider__image"/>
-                        <div className="services__content">
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <br/>
+                        <div className="services__content product__content">
                             <h1 className="slider__title">{title}</h1>
                             <h3 className="slider__title">______________________________</h3>
                             <br/>

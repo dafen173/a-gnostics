@@ -1,0 +1,35 @@
+.about__us__container {
+    background-image: url("../assets/bg_kpi.jpg"); /* The image used */
+    /* height: 500px; */
+    /* background-position: center top; */
+    background-position: 0% -20%;
+
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 150px 0 100px 0;
+}
+
+.about__us__container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+}
+
+.aboutus__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* margin: 100px 0 100px 0; */
+    margin-top: 50px;
+}
+
+.aboutus__content p {
+    margin: 0 15% 0 15%;
+}
+
+
