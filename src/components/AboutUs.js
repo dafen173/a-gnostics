@@ -36,7 +36,6 @@ const AboutUs = ({ imageSrc, title, subtitle, flipped, id }) => {
                                     With clients from the U.S. and the E.U., offices in London, Houston, and development centers in Eastern Europe, Smartificial Elements assists customers in delivering innovative software solutions on a global scale.
                                 </p>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

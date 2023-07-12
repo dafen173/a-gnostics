@@ -1,5 +1,3 @@
-
-
 .cbf__flex__container {
     display: flex;
     flex-direction: column;
@@ -26,6 +24,7 @@
 
 .cbf__content__flex__container ul {
     max-width: 50%;
+    margin-left: 5%;
 }
 
 .cbf__content__flex__container ul li {
@@ -33,15 +32,12 @@
 }
 
 .datadome_screens {
-    max-width: 20%;
+    display: block;
+    max-width: 100%;
 }
 
 .cbf_product_list {
     list-style: none;
-
-    /* display: flex;
-    flex-direction: column;
-    gap: 10px; */
 }
 
 .cbf_product_list li {
@@ -56,6 +52,12 @@
     font-size: 3vw;
 }
 
+@media (max-width: 767px) {
+    .datadome_screens {
+        display: none;
+    }
 
-
-
+    .cbf__content__flex__container ul {
+        max-width: 100%;
+    }
+}

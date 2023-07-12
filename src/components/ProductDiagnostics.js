@@ -30,25 +30,25 @@ const ProductDiagnostics = ({ imageSrc, title, subtitle, flipped, id }) => {
                             <h5 className="slider__subtitle">Industrial AI sound analytics SaaS</h5>
                             <ul className="product_list">
                                 <li>
-                                    <span class="icon-uniE909"></span>
+                                    <span className="icon-uniE909"></span>
                                     <p>
                                         Record the sound of how the equipment works and transmit data via the special mobile application.
                                     </p>
                                 </li>
                                 <li>
-                                    <span class="icon-uniE907"></span>
+                                    <span className="icon-uniE907"></span>
                                     <p>
                                         Process it in the cloud infrastructure for data computing, analytics, and data science.
                                     </p>
                                 </li>
                                 <li>
-                                    <span class="icon-uniE906"></span>
+                                    <span className="icon-uniE906"></span>
                                     <p>
                                         Use a large dataset of the different sounds of industrial equipment. It was built a comprehensive data pipeline to easily train, schedule retrain, and use specific models for selected users.
                                     </p>
                                 </li>
                                 <li>
-                                    <span class="icon-uniE908"></span>
+                                    <span className="icon-uniE908"></span>
                                     <p>
                                         Receive motor status in seconds and analyze spectrogram via UI for administrators and data analysts.
                                     </p>

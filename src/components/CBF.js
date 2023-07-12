@@ -31,32 +31,36 @@ const CBF = ({ imageSrc, title, subtitle, flipped, id }) => {
                 <div className="cbf__content__flex__container">
                   <ul className="cbf_product_list">
                     <li>
-                        <span class="cbf__items"><pre>01 </pre></span>
+                        <span className="cbf__items"><pre>01 </pre></span>
                         <p>
                           Cloud Business Framework is a software framework to develop highly scalable and flexible Enterprise and SaaS applications. It provides rich set of features necessary for implementation of Enterprise and SaaS solutions of any complexity.
                         </p>
                     </li>
                     <li>
-                      <span class="cbf__items">02</span>
+                      <span className="cbf__items">02</span>
                       <p>
                           CBF was created to help developers in building enterprise-ready applications for the end customers faster and better.
                       </p>
                     </li>
                     <li>
-                      <span class="cbf__items">03</span>
+                      <span className="cbf__items">03</span>
                       <p>
                           Using CBF libraries as the base of Enterprise and SaaS application development, the company can save up to 6000 man-hours of work. CBF provides possibility to immediately focus on the project-specific business logic implementation via utilizing pre-built out-of-the-box core features.
                       </p>
                     </li>
                     <li>
-                      <span class="cbf__items">04</span>
+                      <span className="cbf__items">04</span>
                       <p>
                           Implementations. Industries: Oil & Gas, Financial Services, Insurance, Healthcare, Automotive.
                       </p>
                     </li>
                   </ul>
 
-                  <img src={datadome_screens} alt="datadome_screens" className="datadome_screens slider__image services__image"/>
+                  {/* <img src={datadome_screens} alt="datadome_screens" className="datadome_screens slider__image services__image"/> */}
+
+                  <div>
+                    <img src={datadome_screens} alt="datadome_screens" className="datadome_screens slider__image"/>
+                  </div>
                 </div>
               </div>
               <img src={ai_background_right_bottom} alt="Services" className="ai_background_right_bottom slider__image services__image"/>

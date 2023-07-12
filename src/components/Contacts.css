@@ -1,0 +1,59 @@
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    padding: 0 10% 0 10%;
+}
+
+.contacts__container ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.phone__number {
+    color: #ff5c00;
+}
+
+.contacts__container ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .icon-uniE904:before {
+    color: #ff5c00;
+    font-size: 3vw;
+}
+
+.icon-uniE905:before {
+    color: #ff5c00;
+    font-size: 3vw;
+}
+
+.facebook,
+.linked__in {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.facebook:hover,
+.linked__in:hover {
+    opacity: 100%;
+}
+
+.contacts__container ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .contacts__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}

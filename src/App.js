@@ -1,11 +1,12 @@
 import './App.css';
 import Hero from './components/Hero';
-import Slider from './components/Slider';
+// import Slider from './components/Slider';
 import Navbar from "./components/Navbar";
 import Services from './components/Services';
 import ProductDiagnostics from './components/ProductDiagnostics';
 import CBF from './components/CBF';
 import AboutUs from './components/AboutUs';
+import Contacts from './components/Contacts';
 
 import travel_01 from "./assets/travel-01.jpg";
 import ai_background_right_bottom from "./assets/ai_background_right_bottom.png"
@@ -53,17 +54,18 @@ function App() {
                 title={navbarLinks[3].contentTitle}
                 subtitle={navbarLinks[3].subtitle}
           />
+          <Contacts
+                id={navbarLinks[4].url.substring(1)}
+                // imageSrc={navbarLinks[4].imageSrc}
+                // title={navbarLinks[4].contentTitle}
+                // subtitle={navbarLinks[4].subtitle}
+          />
+          <br/>
+          <br/>
+          <br/>
 
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
 
-          {navbarLinks.map((item, index) => {
+          {/* {navbarLinks.map((item, index) => {
             return (
               <Slider
                 id={item.url.substring(1)}
@@ -72,7 +74,8 @@ function App() {
                 subtitle={item.subtitle}
               />
             );
-          })}
+          })} */}
+
         </div>
   );
 }

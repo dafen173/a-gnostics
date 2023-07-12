@@ -15,8 +15,11 @@ const Navbar = ({ navbarLinks }) => {
     return (
         <BrowserRouter>
             <nav className="navbar">
-                {/* <span className="navbar__logo">a-Gnostics</span> */}
-                <img src={se_logo} alt="logo" className="logo" height={70}/>
+
+                <Link className="" to='#' smooth>
+                   <img src={se_logo} alt="logo" className="logo" height={70}/>
+                </Link>
+
                 {menuClicked ? (
                 <FiX size={25} className={"navbar__menu"} onClick={toggleMenuClick} />
                 ) : (

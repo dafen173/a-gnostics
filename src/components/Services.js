@@ -1,6 +1,6 @@
 import React from "react";
 import "./Slider.css";
-// import "./Services.css";
+import "./Services.css";
 import { useInView } from "react-intersection-observer";
 
 const Services = ({ imageSrc, title, subtitle, flipped, id }) => {

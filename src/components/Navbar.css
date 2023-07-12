@@ -51,6 +51,14 @@
     cursor: pointer;
 }
 
+.logo {
+  opacity: 80%;
+}
+
+.logo:hover {
+  opacity: 100%;
+}
+
 @media screen and (max-width: 850px) {
     .navbar__list {
       display: flex;
