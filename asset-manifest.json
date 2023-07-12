@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/a-gnostics/static/css/main.58be74f9.css",
-    "main.js": "/a-gnostics/static/js/main.ed53473c.js",
+    "main.css": "/a-gnostics/static/css/main.9692711f.css",
+    "main.js": "/a-gnostics/static/js/main.828ecedb.js",
     "static/js/787.d546e16d.chunk.js": "/a-gnostics/static/js/787.d546e16d.chunk.js",
     "static/media/travel-01.jpg": "/a-gnostics/static/media/travel-01.ae8754a3360000007acd.jpg",
     "static/media/banner.jpg": "/a-gnostics/static/media/banner.48153ff8aa0cd5d92959.jpg",
@@ -9,6 +9,7 @@
     "static/media/ai_background.png": "/a-gnostics/static/media/ai_background.a2129cd406f4b48e58ba.png",
     "static/media/bg_engine.jpg": "/a-gnostics/static/media/bg_engine.61f21082ffa006a2d838.jpg",
     "static/media/bg_kpi.jpg": "/a-gnostics/static/media/bg_kpi.04303aaba608fce4febb.jpg",
+    "static/media/banner_small.jpg": "/a-gnostics/static/media/banner_small.c66f66d8e5aab5dbf59b.jpg",
     "static/media/ai_background_left_top.png": "/a-gnostics/static/media/ai_background_left_top.58114107bc0a853cca8c.png",
     "static/media/icomoon.svg?5xw1yv": "/a-gnostics/static/media/icomoon.dc36023743e2ab8014fb.svg",
     "static/media/phone_di_agnostics.png": "/a-gnostics/static/media/phone_di_agnostics.0def83281c1209e49ac3.png",
@@ -18,12 +19,12 @@
     "static/media/icomoon.woff?5xw1yv": "/a-gnostics/static/media/icomoon.a5334e6ff6e9712ff1d0.woff",
     "static/media/icomoon.ttf?5xw1yv": "/a-gnostics/static/media/icomoon.e5a8f5d985ad51ac2dda.ttf",
     "index.html": "/a-gnostics/index.html",
-    "main.58be74f9.css.map": "/a-gnostics/static/css/main.58be74f9.css.map",
-    "main.ed53473c.js.map": "/a-gnostics/static/js/main.ed53473c.js.map",
+    "main.9692711f.css.map": "/a-gnostics/static/css/main.9692711f.css.map",
+    "main.828ecedb.js.map": "/a-gnostics/static/js/main.828ecedb.js.map",
     "787.d546e16d.chunk.js.map": "/a-gnostics/static/js/787.d546e16d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58be74f9.css",
-    "static/js/main.ed53473c.js"
+    "static/css/main.9692711f.css",
+    "static/js/main.828ecedb.js"
   ]
 }
