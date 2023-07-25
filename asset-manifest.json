@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/a-gnostics/static/css/main.9692711f.css",
-    "main.js": "/a-gnostics/static/js/main.828ecedb.js",
+    "main.css": "/a-gnostics/static/css/main.3dbddbe0.css",
+    "main.js": "/a-gnostics/static/js/main.76030359.js",
     "static/js/787.d546e16d.chunk.js": "/a-gnostics/static/js/787.d546e16d.chunk.js",
     "static/media/travel-01.jpg": "/a-gnostics/static/media/travel-01.ae8754a3360000007acd.jpg",
     "static/media/banner.jpg": "/a-gnostics/static/media/banner.48153ff8aa0cd5d92959.jpg",
@@ -19,12 +19,12 @@
     "static/media/icomoon.woff?5xw1yv": "/a-gnostics/static/media/icomoon.a5334e6ff6e9712ff1d0.woff",
     "static/media/icomoon.ttf?5xw1yv": "/a-gnostics/static/media/icomoon.e5a8f5d985ad51ac2dda.ttf",
     "index.html": "/a-gnostics/index.html",
-    "main.9692711f.css.map": "/a-gnostics/static/css/main.9692711f.css.map",
-    "main.828ecedb.js.map": "/a-gnostics/static/js/main.828ecedb.js.map",
+    "main.3dbddbe0.css.map": "/a-gnostics/static/css/main.3dbddbe0.css.map",
+    "main.76030359.js.map": "/a-gnostics/static/js/main.76030359.js.map",
     "787.d546e16d.chunk.js.map": "/a-gnostics/static/js/787.d546e16d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9692711f.css",
-    "static/js/main.828ecedb.js"
+    "static/css/main.3dbddbe0.css",
+    "static/js/main.76030359.js"
   ]
 }
