@@ -18,13 +18,12 @@ import phone_di_agnostics from "./assets/phone_di_agnostics.png";
 function App() {
 
   const navbarLinks = [
-    { url: "#1", title: "SERVICES", imageSrc: ai_background, contentTitle: "SERVICES", subtitle: "SERVICES dream vacation is only a few clicks away."},
-    { url: "#2", title: "PRODUCT: DI-AGNOSTICS", imageSrc: phone_di_agnostics, contentTitle: "PRODUCT: DI-AGNOSTICS", subtitle: "PRODUCT: DI-AGNOSTICS conkljhjlj fdljlfjld"},
-    { url: "#3", title: "PRODUCT: CBF", imageSrc: ai_background_right_bottom, contentTitle: "PRODUCT: CBF", subtitle: "PRODUCT: CBF conkljhjlj fdljlfjld"},
-    { url: "#4", title: "ABOUT US", imageSrc: bg_kpi, contentTitle: "ABOUT US", subtitle: "Smartificial Element is a custom software development company that has been providing reliable services for implementation of SaaS systems, sophisticated business solutions, engineering applications, and business processes automation software. With clients from the U.S. and the E.U., offices in London, Houston, and development centers in Eastern Europe, Smartificial Elements assists customers in delivering innovative software solutions on a global scale."},
-    { url: "#5", title: "CONTACTS", imageSrc: travel_01, contentTitle: "CONTACTS", subtitle: "CONTACTS conkljhjlj fdljlfjld"},
+    { url: "#services", title: "SERVICES", imageSrc: ai_background, contentTitle: "SERVICES", subtitle: "SERVICES dream vacation is only a few clicks away."},
+    { url: "#product-di-agnostics", title: "PRODUCT: DI-AGNOSTICS", imageSrc: phone_di_agnostics, contentTitle: "PRODUCT: DI-AGNOSTICS", subtitle: "PRODUCT: DI-AGNOSTICS conkljhjlj fdljlfjld"},
+    { url: "#product-cbf", title: "PRODUCT: CBF", imageSrc: ai_background_right_bottom, contentTitle: "PRODUCT: CBF", subtitle: "PRODUCT: CBF conkljhjlj fdljlfjld"},
+    { url: "#about-us", title: "ABOUT US", imageSrc: bg_kpi, contentTitle: "ABOUT US", subtitle: "Smartificial Element is a custom software development company that has been providing reliable services for implementation of SaaS systems, sophisticated business solutions, engineering applications, and business processes automation software. With clients from the U.S. and the E.U., offices in London, Houston, and development centers in Eastern Europe, Smartificial Elements assists customers in delivering innovative software solutions on a global scale."},
+    { url: "#contacts", title: "CONTACTS", imageSrc: travel_01, contentTitle: "CONTACTS", subtitle: "CONTACTS"},
   ];
-
 
   return (
         <div className="App">

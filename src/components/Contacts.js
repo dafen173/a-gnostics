@@ -2,7 +2,6 @@ import React from "react";
 import "./Slider.css";
 import "./Contacts.css";
 import "./icons.css";
-// import "./Services.css";
 import { useInView } from "react-intersection-observer";
 
 
@@ -16,29 +15,30 @@ const Contacts = ({ imageSrc, title, subtitle, flipped, id }) => {
     const renderContent = () => {
         return (
           <>
-                <div className="contacts__container">
-                    <div className="">
+                {/* <div className="contacts__container"> */}
+                <div className="contacts">
+                    <div className="contacts__title">
                         © 2022 — 2023 Smartificial Element
                     </div>
-                    <div className="">
-                        <ul>
-                            <li>SMARTIFICIAL ELEMENT LTD</li>
-                            <li>SUITE A, 6 HONDURAS STREET</li>
-                            <li>LONDON</li>
-                            <li>EC1Y 0TH</li>
-                            <li className="phone__number">+44 777 440 9981</li>
+                    <div className="contacts__address">
+                        <ul className="contacts__address__list">
+                            <li className="contacts__address__list__item">SMARTIFICIAL ELEMENT LTD</li>
+                            <li className="contacts__address__list__item">SUITE A, 6 HONDURAS STREET</li>
+                            <li className="contacts__address__list__item">LONDON</li>
+                            <li className="contacts__address__list__item">EC1Y 0TH</li>
+                            <li className="contacts__address__list__item contacts__address__list__item--highlight">+44 777 440 9981</li>
                         </ul>
                     </div>
-                    <div className="">
-                        <ul>
-                            <li className="facebook">
-                                <a href="http://www.facebook.com/agnosticscom" target="_blank" rel="noopener noreferrer">
+                    <div className="contacts__social">
+                        <ul className="contacts__social__list">
+                            <li className="contacts__social__list__item">
+                                <a className="contacts__social__list__item__link" href="http://www.facebook.com/agnosticscom" target="_blank" rel="noopener noreferrer">
                                     <span className="icon-uniE904"></span>
                                     <p>Facebook</p>
                                 </a>
                             </li>
-                            <li className="linked__in">
-                                <a href="http://www.linkedin.com/company/agnostics" target="_blank" rel="noopener noreferrer">
+                            <li className="contacts__social__list__item">
+                                <a className="contacts__social__list__item__link" href="http://www.linkedin.com/company/agnostics" target="_blank" rel="noopener noreferrer">
                                     <span className="icon-uniE905"></span>
                                     <p>LinkedIn</p>
                                 </a>

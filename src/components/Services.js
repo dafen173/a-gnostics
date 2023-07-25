@@ -14,7 +14,6 @@ const Services = ({ imageSrc, title, subtitle, flipped, id }) => {
       if (!flipped) {
         return (
           <>
-
             <div className="relative">
               <div className="services__background"></div>
               <img src={imageSrc} alt="Services" className="slider__image services__image"/>
